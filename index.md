@@ -88,7 +88,7 @@ into any problem or if you have a suggestion to improve this tutorial.
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="install-ionic.html" class="btn btn-default pull-right">Next <i class="glyphicon
+<a href="install-ionic.html" class="btn btn-default pull-right">다음 <i class="glyphicon
 glyphicon-chevron-right"></i></a>
 </div>
 </div>
