@@ -1,6 +1,6 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
-title : Ionic 튜토리얼
+title : Ionic Tutorial
 url : http://harryoh.github.io/ionic-tutorial-ko/
 baseurl : /ionic-tutorial-ko
