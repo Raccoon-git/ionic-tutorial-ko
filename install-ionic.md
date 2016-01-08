@@ -35,7 +35,7 @@ In this module, you install the [Ionic Framework](http://ionicframework.com/) an
     ```
     sudo npm update -g cordova ionic
 -->
-## 순서
+## 단계
 
 1. 여러분의 시스템에 최신버전의 Node.js가 설치되어 있는지 확인하세요. Node.js가 설치되지 않았다면, [여기](http://nodejs.org/)에서 설치하세요.
 

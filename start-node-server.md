@@ -8,7 +8,7 @@ In this module, you install and start a Node.js server that exposes the conferen
 이번 장에서 여러분은 회의 데이터(세션과 발표자)를 REST 서비스들을 통해서 제공할 Node.js 서버를 설치하고 시작합니다.
 
 <!--
-## 차례
+## Steps
 
 1. Download the supporting files for this tutorial [here](https://github.com/ccoenraets/ionic-tutorial/archive/master.zip), or clone the repository:
 
@@ -36,7 +36,7 @@ In this module, you install and start a Node.js server that exposes the conferen
     - [http://localhost:5000/sessions](http://localhost:5000/sessions) (for a list of conference sessions returned as a JSON document)
     - [http://localhost:5000/sessions/1](http://localhost:5000/sessions/1) (for information about a specific session )
 -->
-## Steps
+## 단계
 
 1. 이 튜토리얼을 위한 파일을 [다운로드](https://github.com/ccoenraets/ionic-tutorial/archive/master.zip) 받거나 다음 레파지토리를 복제합니다:
 
