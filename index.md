@@ -81,7 +81,7 @@ into any problem or if you have a suggestion to improve this tutorial.
 
 - Twitter로 연락할 수 있습니다:
 
-    <a href="https://twitter.com/harryoh_" class="twitter-follow-button" data-show-count="true" 
+    <a href="https://twitter.com/ccoenraets" class="twitter-follow-button" data-show-count="true" 
     data-size="large" data-lang="en">Follow 
     @ccoenraets</a>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
