@@ -140,7 +140,7 @@ $urlRouterProvider.otherwise('/app/sessions');
 ## 5단계: 애플리케이션을 테스트합니다.
 
 1. **ionic serve** (로컬 웹 서버)가 여전히 실행중인지 확인하세요.
-    - 실행중이지만 브라우저의 앱 페이지를 닫았다면, [http://localhost:8100](http://localhost:8100) URL를 접속하여 앱을 재시작 할 수 있습니다.
+    - 실행중이지만 브라우저의 앱 페이지를 닫았다면, [http://localhost:8100](http://localhost:8100) URL을 접속하여 앱을 재시작 할 수 있습니다.
     - 실행중이지 않다면 커맨드 프롬프트를 열고 **ionic-tutorial** 디렉토리로 이동후 입력하세요:
 
         ```
