@@ -4399,6 +4399,9 @@ a.list-group-item.active > .badge,
     font-size: 63px;
   }
 }
+.jumbotron a {
+  color: #eee;
+}
 .thumbnail {
   display: block;
   padding: 4px;
