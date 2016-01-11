@@ -28,7 +28,7 @@ You build a Conference application that allows the attendees of a conference to 
 
 - How to login with Facebook, and publish information to your feed
 -->
-## 여러분이 배울 내용들:
+## 배우게 될 내용:
 
 - CLI(Command Line Interface)를 이용하여 Ionic 프로젝트를 빌드(컴파일과 패키징)하는 방법.
 
