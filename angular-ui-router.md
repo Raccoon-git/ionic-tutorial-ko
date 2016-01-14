@@ -117,7 +117,7 @@ $urlRouterProvider.otherwise('/app/sessions');
     });
     ```
 
-## 3단계: default 라우트를 수정합니다.
+## 3단계: 기본 라우트를 수정합니다.
 
 기본으로 세션 목록이 나오도록 라우트를 수정합니다 (app.js의 마지막 줄):
 
