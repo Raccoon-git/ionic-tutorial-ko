@@ -85,7 +85,7 @@ In the sidemenu starter app, the playlists are hardcoded in controllers.js. In t
 <div class="col-sm-12">
 <a href="create-ionic-application.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> 
 이전</a>
-<a href="create-angular-controller.html" class="btn btn-default pull-right">이후 <i class="glyphicon 
+<a href="create-angular-controller.html" class="btn btn-default pull-right">다음 <i class="glyphicon 
 glyphicon-chevron-right"></i></a>
 </div>
 </div>

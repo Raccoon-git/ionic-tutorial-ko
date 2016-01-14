@@ -343,7 +343,7 @@ share function:
 
 ## 3단계: 페이스북 로그인을 추가합니다
 
-J. **conference/www/templates** 디렉토리에 있는 login.html을 엽니다. **Log In** 버튼 바로 다음에 **Login with Facebook** 버튼을 추가합니다:
+1. **conference/www/templates** 디렉토리에 있는 login.html을 엽니다. **Log In** 버튼 바로 다음에 **Login with Facebook** 버튼을 추가합니다:
 
     ```
     <label class="item">
@@ -384,14 +384,12 @@ J. **conference/www/templates** 디렉토리에 있는 login.html을 엽니다. 
     ```
 
 1. 애플리케이션을 테스트합니다.
-
     - **ionic serve** (로컬 웹 서버)가 여전히 실행중인지 확인하세요. 실행중이지만 브라우저의 앱 페이지를 닫았다면, [http://localhost:8100](http://localhost:8100) URL을 접속하여 앱을 재시작 할 수 있습니다.
         실행중이지 않다면 커맨드 프롬프트를 열고 **ionic-tutorial** 디렉토리로 이동후 입력하세요:
 
         ```
         ionic serve
         ```
-
     - 애플리케이션에서 슬라이드 메뉴를 열고 **Login**을 선택하세요
     - **Login with Facebook** 버튼을 클릭하세요
     - 페이스북 로그인 화면에서 인증정보를 입력하고 애플리케이션을 허가하세요
@@ -468,7 +466,6 @@ J. **conference/www/templates** 디렉토리에 있는 login.html을 엽니다. 
         ```
         ionic serve
         ```
-
     - 애플리케이션에서 슬라이드 메뉴를 열고 **Login**을 선택하세요
     - 페이스북에 로그인 하세요
     - 슬라이드 메뉴를 열고 **Profile**를 선탁하세요.
@@ -519,7 +516,6 @@ J. **conference/www/templates** 디렉토리에 있는 login.html을 엽니다. 
         ```
         ionic serve
         ```
-
     - 애플리케이션에서 슬라이드 메뉴를 열고 **Login**을 선택하세요
     - 페이스북에 로그인 하세요
     - 슬라이드 메뉴를 열고 **Sessions**를 선택하고 목록중에 한 세션을 선택합니다
