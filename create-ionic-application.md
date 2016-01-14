@@ -42,11 +42,12 @@ implemented in the starter app).
 
     In the last module of this tutorial you will implement Login using **Facebook**.
 -->
-이번 장에서 여러분은 사이드 메뉴 스타터 앱을 기반으로 새로운 애플리케이션을 만들기 위해 Ionic CLI(Command Line Interface)를 이용합니다.
+
+이번 장에서 사이드 메뉴 스타터 앱을 기반으로, 새로운 애플리케이션을 만들기 위해 Ionic CLI(Command Line Interface)를 이용합니다.
 
 ## 단계
 
-1. 터미널(Mac)이나 실행창(Windows)을 열고, **ionic-tutorial-ko** 디렉토리로 이동합니다.
+1. 터미널(Mac)이나 실행 창(Windows)을 열고, **ionic-tutorial-ko** 디렉토리로 이동합니다.
 
 1. Ionic CLI를 이용하여 **sidemenu** 스타터 앱을 기반으로 **conference**라는 애플리케이션을 생성합니다.
 
@@ -70,9 +71,9 @@ implemented in the starter app).
 
 1. 애플리케이션에서 슬라이드 메뉴를 열고(상단의 왼쪽 구석에 있는 "햄버거" 아이콘) **Playlists**를 선택합니다.
 목록중에서 playlist를 선택하면 the details view를 볼 수 있습니다. (이것이 보이는 것이 핵심이 아닙니다.)
-    다음 장에서 여러분은 playlist를 이전 장에서 실험해본 REST 서비스를 이용하여 검색된 회의 세션중 하나로 교체할 것 입니다.
+    다음 장에서 playlist를 이전 장에서 실험해본 REST 서비스를 이용하여 검색된 회의 세션 중 하나로 교체할 것입니다.
 
-1. 사이드 메뉴를 다시 열고 **Login**을 선택하세요. 로그인 버튼을 클릭하면 창이 닫힙니다(로그인은 스타터 앱에 구현되지 않습니다).
+1. 사이드 메뉴를 다시 열고 **Login**을 선택하세요. 로그인 버튼을 클릭하면 창이 닫힙니다(로그인은 스타터 앱에서 구현되지 않습니다).
 
     이 튜토리얼의 마지막 장에서 여러분은 **Facebook**를 이용하여 로그인을 구현할 것입니다.
 

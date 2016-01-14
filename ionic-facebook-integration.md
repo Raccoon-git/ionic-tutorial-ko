@@ -283,7 +283,7 @@ share function:
 1. Run and test your application on an iOS or Android device or emulator 
 -->
 
-이번 장에서 애플리케이션에 페이스북 연동을 추가합니다. 사용자들의 피드에 페이스북에 로그인, 프로파일 조회, 즐겨찾는 세션들을 공유하기 위해서 허가합니다.
+이번 장에서 애플리케이션에 페이스북 연동을 추가합니다. 사용자들의 피드에 페이스북에 로그인, 프로파일 조회, 즐겨찾는 세션들을 공유하기 위해서 허락합니다.
 
 > 이번 튜토리얼에서 연동하기 위해서 [OpenFB](https://github.com/ccoenraets/OpenFB)를 사용합니다. OpenFB는 페이스북과 자바스크립트 애플리케이션의 연동을 위한 아주 작은 라이브러리입니다. 브라우저, Crodova/PhoneGap 앱 모두 동작하고 아무런 의존성도 없습니다: Cordova에서 실행할때에 페이스북 플러그인은 필요 없습니다. 또한 페이스북 SDK조차 필요 없습니다. 더 자세한 내용은 [여기](https://github.com/ccoenraets/OpenFB)에 있습니다.
 

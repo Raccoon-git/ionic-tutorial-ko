@@ -77,9 +77,9 @@ $urlRouterProvider.otherwise('/app/sessions');
  to see the session details.
 -->
 
-이번 장에서 session list view를 로딩하는 app.sessions과 session detail view를 로딩하는 app.session, 두 개의 route(state)를 애플리케이션에 구현합니다.
+이번 장에서 세션 리스트 뷰를 로딩하는 app.sessions과 세션 디테일 뷰를 로딩하는 app.session, 두 개의 라우트(state)를 애플리케이션에 구현합니다.
 
-## 1단계: app.sessions의 route를 정의합니다.
+## 1단계: app.sessions의 라우트를 정의합니다.
 
 1. conference/www/js에 있는 **app.js**를 엽니다.
 
@@ -99,7 +99,7 @@ $urlRouterProvider.otherwise('/app/sessions');
     })
     ```
 
-## Step 2: app.session의 route를 정의합니다.
+## Step 2: app.session의 라우트를 정의합니다.
 
 1.**app.single** state를 삭제합니다.
 
@@ -117,9 +117,9 @@ $urlRouterProvider.otherwise('/app/sessions');
     });
     ```
 
-## 3단계: default route를 수정합니다.
+## 3단계: default 라우트를 수정합니다.
 
-기본으로 세션 목록이 나오도록 route를 수정합니다 (app.js의 마지막 줄):
+기본으로 세션 목록이 나오도록 라우트를 수정합니다 (app.js의 마지막 줄):
 
 ```
 $urlRouterProvider.otherwise('/app/sessions');

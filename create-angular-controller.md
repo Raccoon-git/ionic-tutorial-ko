@@ -48,7 +48,7 @@ stores it in a scope variable named **session**:
     ```
 -->
 
-[AngularJS 컨트롤러](https://docs.angularjs.org/guide/controller)는 뷰와 서비스 사이에서 접착제처럼 동작합니다. 컨트롤러는 종종 [scope](https://docs.angularjs.org/guide/scope) 변수에 저장된 데이터를 가져오기위해 서비스에서 메소드를 동작시켜 뷰에서 보여줍니다. 이번 장에서 두개의 컨트롤러를 생성합니다: SessionsCtrl은 세션 리스트 뷰를 관리하고, SessionsCtrl은 세션 디테일 뷰를 관리합니다.
+[AngularJS 컨트롤러](https://docs.angularjs.org/guide/controller)는 뷰와 서비스 사이에서 접착제처럼 동작합니다. 컨트롤러는 종종 [스코프](https://docs.angularjs.org/guide/scope) 변수에 저장된 데이터를 가져오기위해 서비스에서 메소드를 동작시켜 뷰에서 보여줍니다. 이번 장에서 두개의 컨트롤러를 생성합니다: SessionsCtrl은 세션 리스트 뷰를 관리하고, SessionsCtrl은 세션 디테일 뷰를 관리합니다.
 
 ## 1단계: 종속으로써 starter.services를 선언
 

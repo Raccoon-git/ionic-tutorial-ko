@@ -83,7 +83,7 @@ application using the steps below.
     ionic platform add ios
     ```
 
-    > 이번 단계는 최근 버전의 Ionic CLI에서는 기본적으로 ios 플랫폼이 설치되어 있기때문에 필수는 아닙니다
+    > 이번 단계는 최근 버전의 Ionic CLI에서는 기본적으로 iOS 플랫폼이 설치되어 있기때문에 필수는 아닙니다
 
 1. 프로젝트를 빌드합니다:
 

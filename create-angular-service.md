@@ -43,8 +43,8 @@ In the sidemenu starter app, the playlists are hardcoded in controllers.js. In t
     ```
 -->
 
-스타터 앱 슬라이드 메뉴에서 플레이 리스트는 controllers.js에 하드코딩 되었습니다.
-이번 장에서 여러분은 REST 서비스를 이용하여 회의 세션을 검색하기 위해 [Angular resource module](https://docs.angularjs.org/api/ngResource/service/$resource) (ngResource)을 이용하여 세션 서비스를 생성합니다.
+스타터 앱의 슬라이드 메뉴에서 재생목록은 controllers.js에 하드코딩 되었습니다.
+이번 장에서 REST 서비스를 이용하여 회의 세션을 검색하기 위해 [Angular 리소스 모듈](https://docs.angularjs.org/api/ngResource/service/$resource) (ngResource)을 이용하여 세션 서비스를 생성합니다.
 
 ## 단계
 
@@ -56,7 +56,7 @@ In the sidemenu starter app, the playlists are hardcoded in controllers.js. In t
     angular.module('starter.services', ['ngResource'])
     ```
 
-1. 이번 장에서 지정된 endpoint에 REST 서비스로 접속을 제공하기 위한 Angular resource module을 사용하는 **service**를 **Session**이란 이름으로 정의합니다.
+1. 이번 장에서 지정된 endpoint에 REST 서비스로 접속을 제공하기 위한 Angular 리소스 모듈을 사용하는 **서비스**를 **Session**이란 이름으로 정의합니다.
 
     ```
     angular.module('starter.services', ['ngResource'])
@@ -68,7 +68,7 @@ In the sidemenu starter app, the playlists are hardcoded in controllers.js. In t
 
     > 실제로 구동되는 애플리케이션에선 보통 config module에 서버 파라미터를 기록하는 것이 좋습니다.
 
-1. 막 생성된 starter.services module은 기본적으로 포함되지 않은 Angular resource module에 의존성을 가집니다. index.html을 열고 **angular-resource.min.js**를 포함하는 스크립트 태그를 추가합니다. (ionic-bundle.js 이후)
+1. 막 생성된 starter.services 모듈은 기본적으로 포함되지 않은 Angular 리소스 모듈에 의존성을 가집니다. index.html을 열고 **angular-resource.min.js**를 포함하는 스크립트 태그를 추가합니다. (ionic-bundle.js 이후)
 
     ```
     <script src="lib/ionic/js/angular/angular-resource.min.js"></script>

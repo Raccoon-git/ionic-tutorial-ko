@@ -8,8 +8,8 @@ In this tutorial, you learn how to build a native-like mobile application with  
 (http://ionicframework.com/) and [AngularJS](https://angularjs.org/). 
 You build a Conference application that allows the attendees of a conference to browse through the list of sessions, and share information on Facebook. 
 -->
-이 튜토리얼에서 여러분은 [Ionic](http://ionicframework.com/)과 [AngularJS](https://angularjs.org/)를 이용하여 네이티브 같은 모바일 앱을 만드는 법을 배웁니다.
-여러분은 참석자들은 세션 리스트를 검색하고 페이스북에 정보를 공유할 수 있는 회의 앱을 만듭니다.
+이 튜토리얼에서 여러분은 [Ionic](http://ionicframework.com/)과 [AngularJS](https://angularjs.org/)를 이용하여 네이티브 같은 모바일 앱을 만들게 됩니다.
+회의의 참석자들은 세션 목록을 검색하고 페이스북에 정보를 공유할 수 있는 앱을 만듭니다.
 
 <!--
 ## What You Will Learn:
@@ -28,19 +28,19 @@ You build a Conference application that allows the attendees of a conference to 
 
 - How to login with Facebook, and publish information to your feed
 -->
-## 여러분이 배울 내용들:
+## 배우게 될 내용:
 
 - CLI(Command Line Interface)를 이용하여 Ionic 프로젝트를 빌드(컴파일과 패키징)하는 방법.
 
-- Ionic starter app 중의 하나를 시작하는 방법.
+- Ionic 스타터 앱 중의 하나를 시작하는 방법.
 
 - 슬라이드 메뉴, 카드, 액션 시트와 같은 Ionic 컴포넌트를 이용하여 현대적인 모바일 UI를 만드는 방법.
 
 - Rest 서비스를 접속하기 위하여 Angular 리소스 모듈(ngResource)을 이용하여 서비스를 생성하는 방법.
 
-- controller를 사용하는 방법.
+- 컨트롤러를 사용하는 방법.
 
-- routing을 사용하는 방법.
+- 라우팅을 사용하는 방법.
 
 - 페이스북에 로그인하고 여러분의 피드에 기록하는 방법.
 
@@ -55,13 +55,13 @@ You build a Conference application that allows the attendees of a conference to 
 if you want to run the application on an iOS and/or an Android device or emulator, 
 you need the iOS SDK and/or the Android SDK installed on your system. If you don't want to install a Mobile SDK, you'll be able to test your application in a browser on your computer.
 -->
-## 알아야 할 것
+## 필수항목
 
 - 이 작업을 완료하려면 에디터, 최근의 웹 브라우저, 인터넷 연결 모두가 필요합니다.
 
 - HTML과 자바스크립트의 경험이 필요하지만, 전문가일 필요는 없습니다.
 
->이 튜토리얼에는 모바일 장비나 SDK는 필요하지 **않**습니다. 하지만 IOS나 안드로이드 또는 에뮬레이터에서 앱을 실행하고 싶다면, 여러분의 시스템에 IOS SDK와 안드로이드 SDK가 설치되어야 합니다. 모바일 SDK를 설치하고 싶지 않다면, 브라우저에서도 테스트가 가능합니다.
+>이 튜토리얼에는 모바일 장비나 SDK는 필요하지 **않습니다**. 하지만 iOS나 Android 또는 에뮬레이터에서 앱을 실행하고 싶다면, 시스템에 iOS SDK와 Android SDK가 설치되어야 합니다. 모바일 SDK를 설치하고 싶지 않다면, 브라우저에서도 테스트가 가능합니다.
 
 <!--
 ## Issues
