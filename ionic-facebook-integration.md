@@ -97,7 +97,7 @@ doLogin function):
 
     ```
     $scope.fbLogin = function () {
-        ngFB.login({scope: 'email,read_stream,publish_actions'}).then(
+        ngFB.login({scope: 'email,publish_actions'}).then(
             function (response) {
                 if (response.status === 'connected') {
                     console.log('Facebook login succeeded');
@@ -371,7 +371,7 @@ share function:
 
     ```
     $scope.fbLogin = function () {
-        ngFB.login({scope: 'email,read_stream,publish_actions'}).then(
+        ngFB.login({scope: 'email,publish_actions'}).then(
             function (response) {
                 if (response.status === 'connected') {
                     console.log('Facebook login succeeded');
